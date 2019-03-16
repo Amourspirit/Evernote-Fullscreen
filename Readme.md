@@ -2,7 +2,7 @@
 
 ## A bigger experience
 
-[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](raw/master/dist/EvernoteFullscreenView.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](raw/master/dist/EvernoteFullscreenView.user.js)
+[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/EvernoteFullscreenView.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/blob/master/dist/EvernoteFullscreenView.user.js)
 
 ### THE WHAT
 
@@ -34,7 +34,7 @@ When in full screen view just press the *esc* key to exit full screen view.
 
 ### THE WHERE
 
-[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](raw/master/dist/EvernoteFullscreenView.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](raw/master/dist/EvernoteFullscreenView.user.js)
+[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/EvernoteFullscreenView.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/blob/master/dist/EvernoteFullscreenView.user.js)
 
 ### Other Notes
 
