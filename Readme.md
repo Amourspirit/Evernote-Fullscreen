@@ -24,7 +24,7 @@ When in full screen view just press the esc key to exit full screen view.
 ### Private view
 
 On a private note this script adds a fullscreen view button as shown below.  
-![public-clip-button.png](https://i.postimg.cc/nr8mwNWq/public-clip-button.png)  
+![private-clip-button.png](https://i.postimg.cc/qqCtsQMg/private-clip-button.png)
 
 When the mouse is placed over the full screen button it looks like the following.  
 ![private-clip-mouseover.png](https://i.postimg.cc/WpyxW8SS/private-clip-mouseover.png)  
