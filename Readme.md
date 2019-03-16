@@ -60,7 +60,7 @@ Paul Moss
 
 **Making a donation is an act of generosity. Your support, however modest it might be, is necessary.
 
-![Paypal](http://amourspirit.github.io/TinyMce-for-Evernote/images/paypal.png) [donate](http://bit.ly/1QIN2Cs)
+![Paypal](http://amourspirit.github.io/TinyMce-for-Evernote/images/paypal.png) [donate](https://bit.ly/1QIN2Cs)
 
 ### Screen shots
 
