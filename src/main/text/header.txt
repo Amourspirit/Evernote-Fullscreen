@@ -15,7 +15,7 @@
 // @homepageURL     https://amourspirit.github.io/Evernote-Fullscreen/
 // @update          https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/@SCRIPT_NAME@.user.js
 // @downloadURL     https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/@SCRIPT_NAME@.user.js
-// @contributionURL http://bit.ly/1QIN2Cs
+// @contributionURL https://bit.ly/1QIN2Cs
 // @license         @LICENSE@
 // @grant           none
 // ==/UserScript==
