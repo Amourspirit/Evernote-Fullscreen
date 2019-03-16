@@ -1,0 +1,21 @@
+// ==UserScript==
+// @name            @FULL_NAME@
+// @namespace       https://github.com/Amourspirit/Evernote-Fullscreen
+// @version         @BUILD_NUMBER@
+// @description     @DESCRIPTION@
+// @author          @AUTHOR@
+// @run-at          document-end
+// @include         /^https?:\/\/www\.evernote\.com\/shard\/[a-z0-9]+\/nl\/.*$/
+// @include         /^https?:\/\/www\.evernote\.com\/shard\/[a-z0-9]+\/client\/snv\?.*$/
+// @include         /^https?:\/\/app\.yinxiang\.com\/shard\/[a-z0-9]+\/nl\/.*$/
+// @include         /^https?:\/\/app\.yinxiang\.com\/shard\/[a-z0-9]+\/client\/snv\?.*$/
+// @match           https://www.evernote.com/shard/*
+// @match           https://app.yinxiang.com/shard/*
+// @noframes
+// @homepageURL     https://amourspirit.github.io/Evernote-Fullscreen/
+// @update          https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/@SCRIPT_NAME@.user.js
+// @downloadURL     https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/@SCRIPT_NAME@.user.js
+// @contributionURL http://bit.ly/1QIN2Cs
+// @license         @LICENSE@
+// @grant           none
+// ==/UserScript==

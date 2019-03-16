@@ -1,0 +1,52 @@
+{
+  "_name": "EvernoteFullscreenView",
+  "_debuglevel": 4,
+  "_debugRemoveComment": true,
+  "_fullName": "Evernote Full Screen View",
+  "name": "evernote-fullscreen-view-userscript",
+  "version": "1.0.0",
+  "description": "Adds a full screen option to view Evernote Notes in view mode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amourspirit/Evernote-Fullscreen.git"
+  },
+  "keywords": [
+    "Evernote",
+    "fullscreen"
+  ],
+  "author": "Paul Moss",
+  "license": "MIT",
+  "devDependencies": {
+    "@ephox/tslint-rules": "latest",
+    "@types/depcheck": "^0.6.0",
+    "@types/jquery": "^3.3.29",
+    "awesome-typescript-loader": "^5.2.1",
+    "depcheck": "^0.7.2",
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-if-next": "^0.1.5",
+    "grunt-remove-comments": "^0.1.6",
+    "grunt-shell": "^2.1.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-tslint": "^5.0.2",
+    "jquery": "^3.3.1",
+    "load-grunt-tasks": "^4.0.0",
+    "rollup": "^1.4.1",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "strongly-typed-events": "^1.4.10",
+    "ts-loader": "^5.3.0",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  }
+}

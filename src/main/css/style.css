@@ -1,0 +1,155 @@
+.enfs-button-priv::after, .enfs-button-pub::after {
+  content: "";
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACk0lEQVR42mNgGAWjYBSMUFAlx8RQI69IJJanyK5qOS4S7BIjzfAaeVmGFbr/icYLtH4zNClmkOyJXpXjDEt1iLdnktp92noEhGdqfCTJjnoFV5LtoItHpqu/JcmOOnnzgfXIciBerP0PBc/QeA8MYTeSk1aH8mKGeVo/UcxaovOPfh5pVeqhSSEDyvhT1B7TL2nRwjMQTzyhbdICOXyZDu08g8sT6CUaxR4BpdtWpS6aeAaXJ+Zq/mBoV5pLfY+AALU9g88TtfJaDC2KDbTxCH7P9FHVEyBABY9IoxiwGMkj+DzTrFhOtB2T1O7h9QRVPAICoGYHzIAZGh8w5LF5ZqbGJ7JrdXRPYFPXrbKHdI80KiSBPTBd/Q3YQGygVakbxTNT1V8SZXatvCE4BvF5AgbalRYyzNb8yjBR9SZDtbwI7VrKTYrF4HbWVPUXwGaHPdH62pQmMczS+AxMLneBntAY7XKMglEwCkbBKBgFgwY0KIQCa3UbElu/LOBmEK6mCZUdGAJsZznjbYpPVnsAb/22K80j0hNs4AELWC8Q1GbDrZYH6OEU8j3cp3oW3qjrVN5AVH9ituY3IhuksUR1zqrl+BhmaX6B94lAMUhyp2c52kgiMZ2iycAREOJavzoY/XFsnmlSLERRM0H1OvV6iPh7dsS3YonpNtOsq0tM95QUQMgzNPEItT1BjGdo4hFaeIKQZyaq3ab9IDa1PIHPMzQfMqW2J4j1DFU9ArKoQ3kleBwLgnuAlaYHmQN0fMAitgDJrD6wYwd0fqRDeRmJnmADDx8NuokeYmt1RPMnfHDOWE1Uu0myHfgmdajiEdBAGKi5QRx+BBwB3EXW4BkoVvpVLxNtV6fy2tGuxigYBaNg+AAAZ7k6IXnaMaQAAAAASUVORK5CYII=');
+  background-size:cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 100;
+  -webkit-filter: grayscale(1); /* Old WebKit */
+  filter: grayscale(1);
+}
+/* Private button styles */
+.enfs-button-priv {
+  width: 50px;
+  height:50px;
+  position: absolute;
+  top: 0px;
+  left: 160px;
+  z-index: 101;
+}
+.enfs-button-priv:hover {
+  cursor: pointer;
+  opacity: 1;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  /* -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5)); */
+  -webkit-filter: drop-shadow(4px 4px 4px #5c5c5c);
+  filter: drop-shadow(4px 4px 4px #5c5c5c);
+}
+.enfs-button-priv:hover::after {
+  content: "";
+  cursor: pointer;
+  opacity: 1;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.enfs-button-priv .enfs-btntooltip {
+  visibility: hidden;  /* https://www.w3schools.com/css/css_tooltip.asp */
+  width: 120px;
+  background-color: #08ab33;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 115%;
+  left: 50%;
+  margin-left: -60px;
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+.enfs-button-priv:hover .enfs-btntooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.enfs-button-priv .enfs-btntooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent  #08ab33 transparent;
+}
+/* Public button styles */
+.enfs-button-pub {
+width: 36px;
+height: 36px;
+position: fixed;
+top: 20px;
+left: 200px;
+z-index: 101;
+}
+.enfs-button-pub:hover {
+  cursor: pointer;
+  opacity: 1;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  /* -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5)); */
+  -webkit-filter: drop-shadow(4px 4px 4px #5c5c5c);
+  filter: drop-shadow(4px 4px 4px #5c5c5c);
+}
+.enfs-button-pub:hover::after {
+  content: "";
+  cursor: pointer;
+  opacity: 1;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.enfs-button-pub .enfs-btntooltip {
+  visibility: hidden;  /* https://www.w3schools.com/css/css_tooltip.asp */
+  width: 120px;
+  background-color: #08ab33;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 115%;
+  left: 50%;
+  margin-left: -60px;
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+.enfs-button-pub:hover .enfs-btntooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.enfs-button-pub .enfs-btntooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent  #08ab33 transparent;
+}
+/* Iframe styles */
+.enfs-if-noshow {
+  margin: 0px;
+  width: 0px;
+  height: 0px;
+  display:none;
+}
+.enfs-if-show {
+  display:block;
+  border: 0px;
+  background-color: white;
+  object-fit: contain;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  min-width: 0px;
+  max-width: none;
+  min-height: 0px;
+  max-height: none;
+  width: 100%;
+  height: 100%;
+  transform: none;
+  margin: 0px;
+}

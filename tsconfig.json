@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "es2015",
+    "importHelpers": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "declaration": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "baseUrl": ".",
+    "removeComments": false,
+    "allowSyntheticDefaultImports": true, // for jquery
+    "strict": true
+  },
+  "include": [
+    "src/main/ts",
+    "node_modules/@ephox/**/*/api/Main.d.ts"
+  ]
+}
