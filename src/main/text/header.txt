@@ -12,7 +12,7 @@
 // @match           https://www.evernote.com/shard/*
 // @match           https://app.yinxiang.com/shard/*
 // @noframes
-// @homepageURL     https://amourspirit.github.io/Evernote-Fullscreen/
+// @homepageURL     https://github.com/Amourspirit/Evernote-Fullscreen
 // @update          https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/@SCRIPT_NAME@.user.js
 // @downloadURL     https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/@SCRIPT_NAME@.user.js
 // @contributionURL https://bit.ly/1QIN2Cs

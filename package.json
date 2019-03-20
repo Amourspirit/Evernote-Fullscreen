@@ -4,7 +4,7 @@
   "_debugRemoveComment": true,
   "_fullName": "Evernote Full Screen View",
   "name": "evernote-fullscreen-view-userscript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds a full screen option to view Evernote Notes in view mode.",
   "main": "index.js",
   "scripts": {

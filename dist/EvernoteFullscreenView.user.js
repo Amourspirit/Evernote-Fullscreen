@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Evernote Full Screen View
 // @namespace       https://github.com/Amourspirit/Evernote-Fullscreen
-// @version         1.0.1
+// @version         1.0.2
 // @description     Adds a full screen option to view Evernote Notes in view mode.
 // @author          Paul Moss
 // @run-at          document-end
@@ -12,7 +12,7 @@
 // @match           https://www.evernote.com/shard/*
 // @match           https://app.yinxiang.com/shard/*
 // @noframes
-// @homepageURL     https://amourspirit.github.io/Evernote-Fullscreen/
+// @homepageURL     https://github.com/Amourspirit/Evernote-Fullscreen
 // @update          https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/EvernoteFullscreenView.user.js
 // @downloadURL     https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/EvernoteFullscreenView.user.js
 // @contributionURL https://bit.ly/1QIN2Cs
