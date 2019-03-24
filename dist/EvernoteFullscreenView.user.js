@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Evernote Full Screen View
 // @namespace       https://github.com/Amourspirit/Evernote-Fullscreen
-// @version         1.1.0
+// @version         1.2.0
 // @description     Adds a full screen option to view Evernote Notes in view mode.
 // @author          Paul Moss
 // @run-at          document-end
@@ -35,14 +35,13 @@
         function __() { this.constructor = d; }
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     }
-
     var DebugLevel;
     (function (DebugLevel) {
-        DebugLevel[DebugLevel["none"] = 0] = "none";
-        DebugLevel[DebugLevel["debug"] = 1] = "debug";
-        DebugLevel[DebugLevel["error"] = 2] = "error";
-        DebugLevel[DebugLevel["warn"] = 3] = "warn";
-        DebugLevel[DebugLevel["info"] = 4] = "info";
+        DebugLevel[DebugLevel["debug"] = 0] = "debug";
+        DebugLevel[DebugLevel["error"] = 1] = "error";
+        DebugLevel[DebugLevel["warn"] = 2] = "warn";
+        DebugLevel[DebugLevel["info"] = 3] = "info";
+        DebugLevel[DebugLevel["none"] = 4] = "none";
     })(DebugLevel || (DebugLevel = {}));
     var ScriptLinkType;
     (function (ScriptLinkType) {
@@ -58,7 +57,7 @@
     })(ElementLocation || (ElementLocation = {}));
 
     var appSettings = {
-        debugLevel: DebugLevel.info,
+        debugLevel: DebugLevel.none,
         shortName: 'ENFS',
         buttonPlacementSelector: 'body',
         buttonId: 'enote-btn-id',
@@ -70,52 +69,62 @@
         function Log() {
         }
         Log.message = function (msg, optionalParams) {
-            if (appSettings.debugLevel < DebugLevel.info) {
+            if (appSettings.debugLevel > DebugLevel.info) {
                 return;
             }
             var params = [];
-            for (var i = 1; i < arguments.length; i++) {
-                params[i - 1] = arguments[i];
+            if (optionalParams) {
+                for (var i = 0; i < optionalParams.length; i++) {
+                    params[i] = optionalParams[i];
+                }
             }
             console.log.apply(console, [msg].concat(params));
         };
         Log.warn = function (msg, optionalParams) {
-            if (appSettings.debugLevel < DebugLevel.warn) {
+            if (appSettings.debugLevel > DebugLevel.warn) {
                 return;
             }
             var params = [];
-            for (var i = 1; i < arguments.length; i++) {
-                params[i - 1] = arguments[i];
+            if (optionalParams) {
+                for (var i = 0; i < optionalParams.length; i++) {
+                    params[i] = optionalParams[i];
+                }
             }
             console.warn.apply(console, [msg].concat(params));
         };
         Log.error = function (msg, optionalParams) {
-            if (appSettings.debugLevel < DebugLevel.error) {
+            if (appSettings.debugLevel > DebugLevel.error) {
                 return;
             }
             var params = [];
-            for (var i = 1; i < arguments.length; i++) {
-                params[i - 1] = arguments[i];
+            if (optionalParams) {
+                for (var i = 0; i < optionalParams.length; i++) {
+                    params[i] = optionalParams[i];
+                }
             }
             console.error.apply(console, [msg].concat(params));
         };
         Log.debug = function (msg, optionalParams) {
-            if (appSettings.debugLevel < DebugLevel.debug) {
+            if (appSettings.debugLevel > DebugLevel.debug) {
                 return;
             }
             var params = [];
-            for (var i = 1; i < arguments.length; i++) {
-                params[i - 1] = arguments[i];
+            if (optionalParams) {
+                for (var i = 0; i < optionalParams.length; i++) {
+                    params[i] = optionalParams[i];
+                }
             }
             console.log.apply(console, [appSettings.shortName + ": Debug: " + msg].concat(params));
         };
         Log.debugWarn = function (msg, optionalParams) {
-            if (appSettings.debugLevel < DebugLevel.debug) {
+            if (appSettings.debugLevel > DebugLevel.debug) {
                 return;
             }
             var params = [];
-            for (var i = 1; i < arguments.length; i++) {
-                params[i - 1] = arguments[i];
+            if (optionalParams) {
+                for (var i = 0; i < optionalParams.length; i++) {
+                    params[i] = optionalParams[i];
+                }
             }
             console.warn.apply(console, [appSettings.shortName + ": Debug: " + msg].concat(params));
         };

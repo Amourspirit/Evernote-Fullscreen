@@ -17,7 +17,7 @@ export interface IappSettings {
 }
 
 export const appSettings: IKeyValueGeneric<any> & IappSettings  = {
-  debugLevel: DebugLevel.info,
+  debugLevel: DebugLevel.none,
   shortName: 'ENFS',
   buttonPlacementSelector: 'body',
   buttonId: 'enote-btn-id',
