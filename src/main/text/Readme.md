@@ -2,7 +2,7 @@
 
 ## A bigger experience
 
-[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/EvernoteFullscreenView.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/blob/master/dist/EvernoteFullscreenView.user.js) ![GitHub package.json version](https://img.shields.io/github/package-json/v/Amourspirit/Evernote-Fullscreen.svg)
+[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](https://github.com/Amourspirit/@REPOSITORY_NAME@/raw/master/dist/@SCRIPT_NAME@.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](https://github.com/Amourspirit/@REPOSITORY_NAME@/blob/master/dist/@SCRIPT_NAME@.user.js) ![GitHub package.json version](https://img.shields.io/github/package-json/v/Amourspirit/@REPOSITORY_NAME@.svg)
 
 ### THE WHAT
 
@@ -34,7 +34,7 @@ When in full screen view just press the *esc* key to exit full screen view.
 
 ### THE WHERE
 
-[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/raw/master/dist/EvernoteFullscreenView.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](https://github.com/Amourspirit/Evernote-Fullscreen/blob/master/dist/EvernoteFullscreenView.user.js)
+[![https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg](https://img.shields.io/badge/Install-Install%20user%20script-brightgreen.svg)](https://github.com/Amourspirit/@REPOSITORY_NAME@/raw/master/dist/@SCRIPT_NAME@.user.js) [![https://img.shields.io/badge/Source-View%20Source%20Code-green.svg](https://img.shields.io/badge/Source-View%20Source%20Code-green.svg)](https://github.com/Amourspirit/@REPOSITORY_NAME@/blob/master/dist/@SCRIPT_NAME@.user.js)
 
 ### Other Notes
 
@@ -54,7 +54,7 @@ Now just paste the link into the browsers address bar and you will be able to vi
 
 ## Authors
 
-Paul Moss
+@AUTHOR@
 
 ## Donate
 

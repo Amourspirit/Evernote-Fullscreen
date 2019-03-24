@@ -100,7 +100,8 @@ module.exports = function (grunt) {
 
     clean: {
       dirs: ['scratch', 'dist'],
-      compiled: ['scratch/compiled']
+      compiled: ['scratch/compiled'],
+      readme: ['./Readme.md']
     },
 
     tslint: {
@@ -171,24 +172,49 @@ module.exports = function (grunt) {
           to: packageData.version
         },
         {
-          from: '@FULL_NAME@',                   // string replacement
+          from: '@FULL_NAME@',
           to: packageData._fullName
         },
         {
-          from: '@SCRIPT_NAME@',                   // string replacement
+          from: '@SCRIPT_NAME@',
           to: packageData._name
         },
         {
-          from: '@AUTHOR@',                   // string replacement
+          from: '@AUTHOR@',
           to: packageData.author
         },
         {
-          from: '@DESCRIPTION@',                   // string replacement
+          from: '@DESCRIPTION@',
           to: packageData.description
         },
         {
-          from: '@LICENSE@',                   // string replacement
+          from: '@LICENSE@',
           to: packageData.license
+        },
+        {
+          from: '@REPOSITORY_NAME@',
+          to: packageData._repositoryName
+        }
+        ]
+      },
+      readme_build: {
+        src: ['src/main/text/Readme.md'],   // source files array (supports minimatch)
+        dest: './Readme.md',  // destination directory or file
+        replacements: [{
+          from: '@BUILD_NUMBER@',                   // string replacement
+          to: packageData.version
+        },
+        {
+          from: '@SCRIPT_NAME@',
+          to: packageData._name
+        },
+        {
+          from: '@AUTHOR@',
+          to: packageData.author
+        },
+        {
+          from: '@REPOSITORY_NAME@',
+          to: packageData._repositoryName
         }
         ]
       }
@@ -302,7 +328,8 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('default', [
-    'clean:dirs',                // clean the folder out from any previous build
+    'clean:dirs',           // clean the folder out from any previous build
+    'clean:readme',         // remoe root Readme.md
     'tslint',               // check the ts files for any lint issues
     'shell:tsc',            // run tsc
     'shell:rollup',         // run rollup to combine all the files into one js file.
@@ -313,5 +340,6 @@ module.exports = function (grunt) {
     // 'replace:button_css',   // extract the .button css from minified css and write it into a text file
     'copy:build',           // run special function includeFile that is in this script to replace BUILD_INCLUDE vars in js.
     'concat',               // combine the header file with the javascript file.
+    'replace:readme_build'  // generate new Readme.md
   ]);
 };
