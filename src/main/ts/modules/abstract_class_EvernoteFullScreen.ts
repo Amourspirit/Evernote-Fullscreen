@@ -1,6 +1,6 @@
 // import jQ from 'jquery';
 import { Log } from './class_Log';
-import { appSettings } from './app_settings';
+import { appSettings } from './appSettings';
 import { DebugLevel } from './enums';
 // import * as jQ from 'jquery';
 // see: https://stackoverflow.com/questions/33768509/how-to-make-an-iframe-to-go-fullscreen-on-a-button-click

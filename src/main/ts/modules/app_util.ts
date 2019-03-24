@@ -1,5 +1,5 @@
 import { Log } from './class_Log';
-import { appSettings } from './app_settings';
+import { appSettings } from './appSettings';
 import { DebugLevel} from './enums';
 
 /**

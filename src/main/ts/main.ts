@@ -1,6 +1,6 @@
 import { EvernoteFsPrivate } from './modules/class_EvernoteFsPrivate';
 import { Log } from './modules/class_Log';
-import { appSettings } from './modules/app_settings';
+import { appSettings } from './modules/appSettings';
 import { ElementJsNode } from './modules/class_ElementJsNode';
 import { ElementLocation } from './modules/enums';
 import { ElementCssNode } from './modules/class_ElementCssNode';

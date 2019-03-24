@@ -1,7 +1,7 @@
 // import jQ from 'jquery';
 import { Log } from './class_Log';
 import { IntervalManual } from './class_InternalManual';
-import { appSettings } from './app_settings';
+import { appSettings } from './appSettings';
 import { DebugLevel } from './enums';
 import { elementCreate } from './ElementHelper';
 import { BaseEvernoteFullscreen } from './abstract_class_EvernoteFullScreen';

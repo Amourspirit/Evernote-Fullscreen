@@ -1,5 +1,5 @@
 import { Interval, IInterval } from './class_Interval';
-import { appSettings } from './app_settings';
+import { appSettings } from './appSettings';
 import { DebugLevel } from './enums';
 import { Log } from './class_Log';
 

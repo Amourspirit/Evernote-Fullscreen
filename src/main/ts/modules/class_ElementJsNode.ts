@@ -1,6 +1,6 @@
 import { BaseElementLoad } from './abstract_class_BaseNodeLoad';
 import { IIntervalEventArgs } from './class_IntervalEventArgs';
-import { appSettings } from './app_settings';
+import { appSettings } from './appSettings';
 import { Log } from './class_Log';
 import { IElementCreate } from './interfaces';
 import {
